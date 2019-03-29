@@ -1,0 +1,63 @@
+.yawscalendar {
+	border-radius:8px;
+	border-style:solid;
+	border-width: 1px;
+	border-color: #800000;
+	background: #808080; 
+	width:250px;
+
+}
+
+.yawscalendar caption {
+	border-radius: 7px;
+	border-style:solid;
+	border-width: 1px;
+	border-spacing:0px;
+	width:250px;
+
+}
+
+.yawscalendar th {
+	padding: 5px;
+	font-family: Verdana;
+	font-size: 13px;
+	text-align: center;
+
+}
+
+.yawscalendar td {
+	border-radius: 10px;
+	border-style:solid;
+	border-width: 1px;
+	border-color: #800000;
+	padding: 5px;
+	font-family: Verdana;
+	font-size: 12px;
+	text-align: center;
+	width:25px;
+	height:25px;
+
+}
+
+.today{
+	border-radius: 2px;
+	font-family: Verdana;
+	font-size: 16px;
+	font-style:italic;
+}
+.yawscalendar a {
+	text-decoration: none;
+}
+.yawscalendar a:link{
+	color: #0000ee;
+	
+}
+.yawscalendar a:hover{
+	color: #0000ee;
+	
+}
+
+.yawscalendar a:visited{
+	color: #08811;
+	
+}

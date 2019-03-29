@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<link href="/css/calendar.css" rel="stylesheet" type="text/css" />
+
+
+<title>My Calendar Demo</title>
+</head>
+<body>
+
+	
+	<div class="yawscalendar" id="yawscalendar">
+	<erl>
+	out(A) -> 
+		case yaws_api:queryvar(A,date) of
+			{ok,Datestr} -> 
+				Date = yaws_calendar:is_valid_datestr(Datestr);
+			_ ->
+				Date = yaws_calendar:make_datestr(erlang:date())
+		end,
+		{'html',[yaws_calendar:start(Date)]}.
+	</erl>
+	</div>
+
+</body>
+</html>
